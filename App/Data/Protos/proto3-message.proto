@@ -1,0 +1,9 @@
+﻿syntax = "proto3";  
+option csharp_namespace = "SerializationDataLib.Protobuf";  
+
+// Compile: protoc --proto_path=C:\Users\danie\source\repos\SerializationStressTest\SerializationStressTest\Protos --csharp_out=C:\Users\danie\source\repos\SerializationStressTest\SerializationStressTest\Protos\out proto3-message.proto
+
+message ProtoMap  
+{  
+	map<string, int32> data = 1;
+}  

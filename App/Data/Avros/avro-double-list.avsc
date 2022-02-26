@@ -1,0 +1,7 @@
+﻿{"namespace": "SerializationDataLib.AvroMessage",
+ "type": "record",
+ "name": "AvroDoubleList",
+ "fields": [
+     {"name": "DoubleList", "type": {"type": "array", "items" : "double", "default": [] }}
+ ]
+}

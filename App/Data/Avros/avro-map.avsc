@@ -1,0 +1,7 @@
+﻿{"namespace": "SerializationDataLib.AvroMessage",
+ "type": "record",
+ "name": "AvroMap",
+ "fields": [
+     {"name": "Data", "type": {"type": "map", "values": "int", "default": {}}}
+ ]
+}

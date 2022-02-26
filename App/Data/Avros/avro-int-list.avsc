@@ -1,0 +1,7 @@
+﻿{"namespace": "SerializationDataLib.AvroMessage",
+ "type": "record",
+ "name": "AvroIntList",
+ "fields": [
+     {"name": "IntList", "type": {"type": "array", "items" : "int", "default": [] }}
+ ]
+}

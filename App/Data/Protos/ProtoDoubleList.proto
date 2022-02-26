@@ -1,0 +1,9 @@
+﻿syntax = "proto3";  
+option csharp_namespace = "SerializationDataLib.Protobuf";  
+
+// Compile: protoc --proto_path=C:\Users\danie\source\repos\SerializationStressTest\SerializationDataLib\Data\Protos\ --csharp_out=C:\Users\danie\source\repos\SerializationStressTest\SerializationDataLib\Data\Protos\out ProtoIntList.proto
+
+message ProtoDoubleList  
+{  
+	repeated double realList = 1;
+}
